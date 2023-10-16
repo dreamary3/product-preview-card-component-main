@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- displays site properly based on user's device -->
+	<!-- my css-->
+	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+	<link rel="stylesheet" href="css/style.css">
+	<!--fonts-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&family=Hanken+Grotesk:wght@500;700;800&family=Lato:wght@300&family=Montserrat:wght@500;700&family=Outfit:wght@400;700&family=Red+Hat+Display:wght@500;700;900&display=swap"
+		rel="stylesheet">
+
+	<title>Frontend Mentor | Product preview card component</title>
+
+	<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+	<style>
+		.attribution {
+			font-size: 11px;
+			text-align: center;
+		}
+
+		.attribution a {
+			color: hsl(228, 45%, 44%);
+		}
+	</style>
+</head>
+
+
+<body>
+
+	<div class="product">
+
+		<div class="content">
+
+			<picture class="parfume-image">
+				<source srcset="images/image-product-desktop.jpg" media="(min-width: 700px)" class="parfume__image2">
+				<img src="images/image-product-mobile.jpg" alt="parfume image" class="parfume-image__image">
+
+			</picture>
+
+			<div class="about__parfum">
+
+				<div class="about__container">
+
+					<div class="about__info">
+						<h5 class="info__h5">Perfume</h5>
+						<h1 class="info__h1">Gabrielle Essence Eau De Parfum</h1>
+						<p class="info__p"> A floral, solar and voluptuous interpretation composed by Olivier Polge,
+							Perfumer-Creator for the House of CHANEL.</p>
+					</div>
+
+					<div class="parfume__price-row">
+						<p class="info__price1">$149.99</p>
+						<p class="info__price2"><s>$169.99</s></p>
+					</div>
+
+
+					<button class="btn"><img src="images/icon-cart.svg" alt="button icon">Add to Cart</button>
+
+				</div>
+
+			</div>
+
+
+
+		</div>
+
+
+		<div class="attribution">
+			Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+			Coded by <a href="#">Meryem Ketishvili</a>.
+			
+		</div>
+
+	</div>
+</body>
+
+</html>
